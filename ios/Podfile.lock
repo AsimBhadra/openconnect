@@ -1,0 +1,34 @@
+PODS:
+  - Flutter (1.0.0)
+  - openconnect_flutter (1.0.0):
+    - Flutter
+    - vpn_adapter_ios (~> 1.0.0)
+  - vpn_adapter_ios (1.0.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - openconnect_flutter (from `.symlinks/plugins/openconnect_flutter/ios`)
+  - vpn_adapter_ios (from `https://github.com/NavidShokoufeh/vpn_adapter_ios.git`, tag `1.0.0`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  openconnect_flutter:
+    :path: ".symlinks/plugins/openconnect_flutter/ios"
+  vpn_adapter_ios:
+    :git: https://github.com/NavidShokoufeh/vpn_adapter_ios.git
+    :tag: 1.0.0
+
+CHECKOUT OPTIONS:
+  vpn_adapter_ios:
+    :git: https://github.com/NavidShokoufeh/vpn_adapter_ios.git
+    :tag: 1.0.0
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  openconnect_flutter: 5014853caaea44dc4e35ead1a5d57c083fc3fb10
+  vpn_adapter_ios: ef856cbfebcb146e300ca1bb9857fc376101dc45
+
+PODFILE CHECKSUM: 651df3f7d5ff8024f374f144cae5b4153a31b1bf
+
+COCOAPODS: 1.16.2
